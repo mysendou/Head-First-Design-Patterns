@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="390.0">com.design.patterns.ch01.MuteQuack</node>
+    <node x="246.0" y="390.0">com.design.patterns.ch01.Quack</node>
+    <node x="0.0" y="235.0">com.design.patterns.ch01.ModelDuck</node>
+    <node x="157.5" y="155.0">com.design.patterns.ch01.Duck</node>
+    <node x="126.0" y="80.0">com.design.patterns.ch01.FlyWithWings</node>
+    <node x="135.0" y="235.0">com.design.patterns.ch01.MallardDuck</node>
+    <node x="135.0" y="390.0">com.design.patterns.ch01.Squeak</node>
+    <node x="112.5" y="310.0">com.design.patterns.ch01.QuackBehavior</node>
+    <node x="277.0" y="235.0">com.design.patterns.ch01.RedHeadDuck</node>
+    <node x="0.0" y="80.0">com.design.patterns.ch01.FlyNoWay</node>
+    <node x="271.0" y="80.0">com.design.patterns.ch01.FlyRocketPowered</node>
+    <node x="131.5" y="0.0">com.design.patterns.ch01.FlyBehavior</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.design.patterns.ch01.Quack" target="com.design.patterns.ch01.QuackBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="288.5" y="365.0" />
+      <point x="225.83333333333334" y="365.0" />
+      <point x="45.33333333333334" y="15.0" />
+    </edge>
+    <edge source="com.design.patterns.ch01.ModelDuck" target="com.design.patterns.ch01.Duck">
+      <point x="0.0" y="-15.0" />
+      <point x="57.5" y="210.0" />
+      <point x="170.33333333333334" y="210.0" />
+      <point x="-25.666666666666657" y="15.0" />
+    </edge>
+    <edge source="com.design.patterns.ch01.FlyRocketPowered" target="com.design.patterns.ch01.FlyBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="348.0" y="55.0" />
+      <point x="226.5" y="55.0" />
+      <point x="38.0" y="15.0" />
+    </edge>
+    <edge source="com.design.patterns.ch01.Squeak" target="com.design.patterns.ch01.QuackBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.design.patterns.ch01.MuteQuack" target="com.design.patterns.ch01.QuackBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="57.5" y="365.0" />
+      <point x="135.16666666666666" y="365.0" />
+      <point x="-45.33333333333334" y="15.0" />
+    </edge>
+    <edge source="com.design.patterns.ch01.FlyWithWings" target="com.design.patterns.ch01.FlyBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.design.patterns.ch01.MallardDuck" target="com.design.patterns.ch01.Duck">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="com.design.patterns.ch01.FlyNoWay" target="com.design.patterns.ch01.FlyBehavior">
+      <point x="0.0" y="-15.0" />
+      <point x="53.0" y="55.0" />
+      <point x="150.5" y="55.0" />
+      <point x="-38.0" y="15.0" />
+    </edge>
+    <edge source="com.design.patterns.ch01.RedHeadDuck" target="com.design.patterns.ch01.Duck">
+      <point x="0.0" y="-15.0" />
+      <point x="342.5" y="210.0" />
+      <point x="221.66666666666669" y="210.0" />
+      <point x="25.666666666666686" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="218.5" y="65.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

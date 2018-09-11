@@ -2,12 +2,15 @@ package com.design.patterns.ch02;
 
 import java.util.ArrayList;
 
+/**
+ *  实现了 Subject 接口，作为一个主题
+ */
 public class WeatherData  implements Subject{
 
     private ArrayList observers;
     private float temperature;
     private float humidity;
-    private float pressuew;
+    private float pressure;
 
     public WeatherData() {
         observers = new ArrayList();
@@ -26,22 +29,34 @@ public class WeatherData  implements Subject{
         }
     }
 
+    /**
+     * 通知每一个观察者
+     */
     @Override
     public void notifyObserver() {
         for (int i = 0; i < observers.size(); i++) {
             Observer observer = (Observer) observers.get(i);
-            observer.update(temperature, humidity, pressuew);
+            observer.update(temperature, humidity, pressure);
         }
     }
 
+    /**
+     * 当气象信息更新的时候，通知观察者
+     */
     public void measurementsChanged() {
         notifyObserver();
     }
 
-    public void setMeasurements(float temperature, float humidity, float pressuew) {
+    /**
+     *
+     * @param temperature
+     * @param humidity
+     * @param pressure
+     */
+    public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;
-        this.pressuew = pressuew;
+        this.pressure = pressure;
         measurementsChanged();
     }
 }

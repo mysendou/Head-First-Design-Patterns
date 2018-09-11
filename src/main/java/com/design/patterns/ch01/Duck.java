@@ -2,9 +2,12 @@ package com.design.patterns.ch01;
 
 /**
  * Created by Jeff.Ma on 12/5/2017.
+ * 鸭子类的超级父类
  */
 public abstract class Duck {
+    //定义鸭子 Fly 的行为
     FlyBehavior flyBehavior;
+    //定义鸭子叫的行为
     QuackBehavior quackBehavior;
 
     public void performQuack(){

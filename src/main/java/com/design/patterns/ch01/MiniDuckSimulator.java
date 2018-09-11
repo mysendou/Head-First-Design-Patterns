@@ -2,6 +2,7 @@ package com.design.patterns.ch01;
 
 /**
  * Created by Jeff.Ma on 12/5/2017.
+ * 主要的测试类
  */
 public class MiniDuckSimulator {
     public static void main(String[] args) {
